@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>bootstrap</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Tastysayrah</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item avtive">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero section" style="background-image: url(/logo.jpg); background-size: cover; 
+    color: antiquewhite; text-align: center; padding: 100px 0;">
+        <div class="container">
+            <h1>WELCOME TO OUR RESTURANT</h1>
+            <P>Food at its best</P>
+            <a href="#" class="btn btn-primary">View Menu</a>
+        </div>
+    </section>
+
+    <section class="menu section" style="margin-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 menu-item">
+                    <div class="card">
+                        <img src="/image and video/jollof.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5>Smokey Party Rice</h5>
+                            <p>Savor the rich flavors of our signature Jollof Rice, 
+                                slow-cooked in a savory blend of tomatoes, onions, and exotic spices, 
+                                delivering a taste of tradition and culinary excellence, 
+                                served with any protein and side of preference </p>
+                            <p>$15</p>    
+                        </div>
+                    </div>
+        </div>
+        <div class="col-md-4 menu-item" >
+            <div class="card">
+                <img src="/image and video/beef stir fry.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5>Stir Fried Pasta</h5>
+                    <p>Indulge in our delectable Stir-Fried Pasta,
+                         a fusion delight bursting with savory flavors, 
+                        featuring perfectly cooked pasta tossed with crisp vegetables and aromatic seasonings, 
+                        creating a tantalizing culinary experience. </p>
+                    <p>$12</p>    
+                </div>
+            </div>
+    </div>
+    <div class="col-md-4 menu-item">
+        <div class="card">
+            <img src="/image and video/egusi.jpg" class="card-img-top" alt="" width="200">
+            <div class="card-body">
+                <h5>Egusi soup and Swallow</h5>
+                <p>Experience the authentic taste of our Egusi Soup and Swallow combo, 
+                    where creamy egusi soup, brimming with ground melon seeds, vegetable, and assorted meats, 
+                    perfectly complements a choice of traditional swallows like pounded yam or fufu, 
+                    offering a comforting and hearty African dining experience.</p>
+                <p>$15</p>    
+             </div>
+          </div>
+       </div>
+    </section>
+
+    <section class="about section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="/image and video/resturant.jpg" class="img-fluid" alt="Resturant img">
+                </div>
+                <div class="col-md-6">
+                    <h2>About US</h2>
+                    <p>Tastysayrah is a lively African restaurant known for its bold, 
+                        traditional dishes from across the continent. 
+                        With colorful decor and rhythmic music, Tastysayrah offers 
+                        a fun dining experience that delights your taste buds and senses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section" style="margin-top: 50px;">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+                           <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="text" class="form-control" id="email" 
+                                placeholder="Enter email address">
+                            </div>
+                                <div class="form-group">
+                                    <label for="review">Review</label>
+                                    <textarea type="text" class="form-control" id="review" rows="3"
+                                    placeholder="Enter review"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" style="background-color: red; 
+    color: antiquewhite; padding: 10px 0; text-align: center;">
+        <div class="container">
+            <p>&copy; Tastysayrah. All rights reserved</p>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>         
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
